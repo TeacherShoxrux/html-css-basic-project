@@ -1,4 +1,5 @@
 
+/* Core styles */
 .body{
     font-family: sans-serif;
 }
@@ -6,6 +7,14 @@
     width: 1120px;
     margin: 0 auto;
 }
+.to-uppercase{
+    text-transform: uppercase;
+}
+.clearfix{
+    clear: both;
+}
+
+/* Main Header styles */
 .header-logo{
   display: inline-block;
   vertical-align: middle;
@@ -34,4 +43,81 @@
 }
 .main-navigation__item.active a{
     color: #ec6a8a;
+}
+
+/* Main Section styles */
+.main-section{
+    padding: 100px 30px;
+}
+.main-section > div{
+ width: 50%;
+ float: left;
+}
+.main-section__image{
+    text-align: right;
+}
+.main-section__welcome{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+
+}
+.main-section__introduction{
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 60px;
+font-weight: 500;
+color: #05364D;
+}
+.main-section__position{
+color: #05364D;
+font-size: 24px;
+font-weight: 300;
+margin-bottom: 30px;
+}
+.main-section__action{
+    margin-top: 30px;
+    border: none;
+    background-color: #1c44e4;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* statsistics section styles */
+.statistics{
+    padding: 100px 30px;
+}
+.statistics__item{
+    width: 150px;
+    display: inline-block;
+    background-color: #f8faff;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+.statistics__number{
+    font-size: 27px;
+    color: #550bc5;
+    margin-bottom: 5px;
+}
+.statistics__title{
+    color: #797979;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.main-section__social-networks a{
+    color: #8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.main-section__social-networks a:hover i{
+    color: #1c44e4;
 }
