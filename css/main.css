@@ -23,6 +23,14 @@
   width: 64px;
 
 }
+.main-header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    top: 0px;
+    left: 0px;
+
+}
 .main-navigation{
     display: inline-block;
     vertical-align: middle;
