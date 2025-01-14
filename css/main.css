@@ -375,3 +375,17 @@ blog{
 
 
 /* /Blog section styles */
+
+/* Partners section styles */
+.partners{
+    padding: 100px;
+}
+.partner{
+    display: inline-block;
+    padding: 0 30px;
+}
+.partner img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}
