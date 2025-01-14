@@ -50,6 +50,13 @@
   display: inline-block;
   vertical-align: middle;
 }
+.main-banner{
+    background: url('../images/bg.png') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    min-height: 890px;
+
+}
 .header-logo img{
   width: 64px;
 
