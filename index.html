@@ -3,6 +3,7 @@
 
 <head>
    <title>Portfolio</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./css/main.css">
    <link rel="stylesheet" href="./css/shared.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -28,7 +29,7 @@
                <li class="main-navigation__item"><a href="#">Portfolio</a></li>
                <li class="main-navigation__item"><a href="#">Blog</a></li>
                <li class="main-navigation__item"><a href="#">My partners</a></li>
-               <li class="main-navigation__item"><a href="../contact.html">Contacts</a></li>
+               <li class="main-navigation__item"><a href="./contact.html">Contacts</a></li>
 
             </ul>
          </nav>
@@ -241,7 +242,7 @@
 
 
    <!-- Portfolio section-->
-   <section id="portfolio" class="portfolio">
+   <section  class="portfolio">
       <!-- <div class="section-subtitle"> -->
       My portfolio
       <span class="blur-line"> </span>
@@ -376,18 +377,53 @@
    <!-- /Partners section-->
 
    <!-- Footer section-->
-   <footer>
-      <nav>
-         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">My partners</a></li>
+   <footer class="footer">
+      <div class="container">
+
+      <div class="footer__brand">
+         <img src="./images/logo.png" alt="Logo">
+      </div>
+         <nav class="footer__navigation">
+         <ul class="footer__navigation__items">
+            <li class="footer__navigation-item"><a href="#">Home</a></li>
+            <li class="footer__navigation-item"><a href="#">About</a></li>
+            <li class="footer__navigation-item"><a href="#">Services</a></li>
+            <li class="footer__navigation-item"><a href="#">Portfolio</a></li>
+            <li class="footer__navigation-item"><a href="#">Blog</a></li>
+            <li class="footer__navigation-item"><a href="#">My partners</a></li>
 
          </ul>
       </nav>
+      <ul class="footer__socials">
+        <li class="footer__social">
+
+        <a href="#">
+            <i class="fab fa-facebook"></i>
+         </a>
+      </li> 
+      <li class="footer__social">
+         <a href="#">
+            <i class="fab fa-twitter"></i>
+         </a>
+      </li>
+      <li class="footer__social">
+         <a href="#">
+            <i class="fab fa-google-plus"></i>
+         </a>
+      </li>
+      <li class="footer__social">
+         <a href="#">
+            <i class="fab fa-instagram"></i>
+         </a>
+      </li>
+
+      </ul>
+      <p class="footer__copyright">
+         © 2021 All rights reserved. Unauthorized duplication is prohibited.
+         copyrigth 2021
+
+      </p>
+      </div>
    </footer>
    <!-- /Footer section-->
 </body>

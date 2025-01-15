@@ -48,22 +48,9 @@
     filter: blur(4px);
     border-radius: 4px;
 }
+
 /* Main Header styles */
-.header-logo{
-  display: inline-block;
-  vertical-align: middle;
-}
-.main-banner{
-    background: url('../images/bg.png') no-repeat center center;
-    background-size: cover;
-    background-position: center;
-    min-height: 890px;
 
-}
-.header-logo img{
-  width: 64px;
-
-}
 .main-header{
     position: fixed;
     width: 100%;
@@ -76,6 +63,7 @@
 .main-navigation{
     display: inline-block;
     vertical-align: middle;
+    margin-bottom: 50px;
 }
 .main-navigation__item{
     display: inline-block;
@@ -93,4 +81,84 @@
 }
 .main-navigation__item.active a{
     color: #ec6a8a;
+}
+.header-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+  }
+/*  Footer styles */
+.footer{
+    background-color: #021017;
+    padding: 50px 0px;
+    text-align: center;
+}
+.footer__brand img{
+   width: 128px;
+}
+.footer__navigation-item{
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer__navigation-item a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.footer__socials{
+    list-style: none;
+}
+.footer__socials li{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 36px;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 12px;
+    line-height: 45px;
+}
+.footer__socials :hover{
+    background: linear-gradient(to right, #1345eb 0%, #ed239f 51%, #1345eb 100%);
+}
+.footer__social i:hover{
+    color: #fff;
+}
+.footer__socials a{
+    color: #021017;
+}
+.footer__copyright{
+    color: #a0a0a0;
+    font-size: 14px;
+    text-decoration: none;
+}
+@media only screen and (max-width: 991px) {
+    .container{
+        width: 96%;
+    }
+    .main-navigation{
+        display: none;
+    }
+    .footer__navigation{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .main-navigation{
+        display: none;
+    }
+    .header-logo img{
+        width: 50px;
+        
+    }
+    .main-navigation{
+        display: none;
+        text-align: center;
+    }
+    .container{
+        width: 96%;
+    }
+  
+
 }
